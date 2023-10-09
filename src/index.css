@@ -1,0 +1,30 @@
+.jumbotron {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-image: url("https://cdn.pixabay.com/photo/2014/11/16/15/15/field-533541_1280.jpg");
+  background-size: cover;
+  background-color: white;
+  color: white;
+  border-radius: 30px;
+  opacity: 0.8;
+  padding: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  min-height: 50vh;
+}
+
+@media (min-width: 576px) and (max-width: 1024px) {
+  .jumbotron {
+    height: auto;
+    margin: 70px;
+  }
+}
+
+@media (max-width: 576px) {
+  .jumbotron {
+    height: auto;
+    margin: 20px;
+  }
+}
