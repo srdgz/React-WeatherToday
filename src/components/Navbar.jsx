@@ -12,7 +12,7 @@ const Navbar = ({ onSubmit, loading, error, city, setCity }) => {
           />
         </div>
 
-        <form onSubmit={onSubmit} className="w-sm-100 mx-auto">
+        <form onSubmit={onSubmit}>
           <div className="text-center">
             <div className="input-group">
               <input
