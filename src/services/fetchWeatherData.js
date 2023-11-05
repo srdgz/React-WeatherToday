@@ -15,6 +15,9 @@ const fetchWeatherData = async (city) => {
     condition: data.current.condition.code,
     icon: data.current.condition.icon,
     conditionText: data.current.condition.text,
+    wind: data.current.wind_kph,
+    humidity: data.current.humidity,
+    last_updated: data.current.last_updated,
   };
 };
 

@@ -1,7 +1,7 @@
 const Navbar = ({ onSubmit, loading, error, city, setCity }) => {
   return (
     <nav className="navbar bg-body-light my-3 mx-5">
-      <div className="container">
+      <div className="container d-flex flex-column align-items-center">
         <div className="text-center">
           <img
             src="/src/assets/logo.png"
@@ -12,13 +12,13 @@ const Navbar = ({ onSubmit, loading, error, city, setCity }) => {
           />
         </div>
 
-        <form onSubmit={onSubmit}>
+        <form onSubmit={onSubmit} className="w-sm-100 mx-auto">
           <div className="text-center">
             <div className="input-group">
               <input
                 className={`form-control ${error.error ? "is-invalid" : ""}`}
                 type="text"
-                placeholder="Localidad"
+                placeholder="City"
                 value={city}
                 onChange={(e) => setCity(e.target.value)}
               />

@@ -1,15 +1,20 @@
 const Footer = () => {
   return (
     <footer className="bg-body-light text-white">
-      <div className="container py-5">
+      <div className="container pt-5 pb-2">
         <p className="text-secondary text-center">
           Powered by:{" "}
-          <a href="https://www.weatherapi.com/" title="Weather API">
+          <a
+            href="https://www.weatherapi.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Weather API"
+          >
             WeatherAPI.com
           </a>
         </p>
         <p className="text-secondary text-center">
-          Trabajo realizado por Sandra Rodríguez
+          WeatherToday made by Sandra Rodríguez
         </p>
         <div className="text-center text-secondary">
           <a

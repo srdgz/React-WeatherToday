@@ -15,6 +15,9 @@ export default function App() {
     condition: "",
     icon: "",
     conditionText: "",
+    wind: "",
+    humidity: "",
+    last_updated: "",
   });
 
   const onSubmit = async (e) => {
