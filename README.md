@@ -12,7 +12,7 @@ WeatherToday es una aplicación que te permite obtener información meteorológi
 
 ## 📷 Capturas de pantalla
 
-![WeatherToday](weathertoday_cap1.JPG)
+![WeatherToday](./src/assets/WeatherTodayMobile.JPG)
 
 ## 💻 Tecnologías utilizadas
 
