@@ -25,8 +25,11 @@ const WeatherDisplay = ({ weather }) => {
               <i className="fa-solid fa-droplet fa-lg me-2"></i>Humidity:{" "}
               {weather.humidity}%
             </div>
-            <i className="fa-solid fa-wind fa-lg me-2"></i>Wind: {weather.wind}
-            km/h
+            <div className="mb-1">
+              <i className="fa-solid fa-wind fa-lg me-2"></i>Wind:{" "}
+              {weather.wind}
+              km/h
+            </div>
           </div>
         </div>
       </div>
