@@ -21,14 +21,12 @@ const WeatherDisplay = ({ weather }) => {
       <div className="container px-4 text-center text-white">
         <div className="d-flex justify-content-center">
           <div className="row">
-            <div className="col mb-3">
-              <i className="fa-solid fa-droplet fa-xl me-2"></i>Humidity:{" "}
+            <div className="mb-2">
+              <i className="fa-solid fa-droplet fa-lg me-2"></i>Humidity:{" "}
               {weather.humidity}%
             </div>
-            <div className="col">
-              <i className="fa-solid fa-wind fa-xl me-2"></i>Wind:{" "}
-              {weather.wind}km/h
-            </div>
+            <i className="fa-solid fa-wind fa-lg me-2"></i>Wind: {weather.wind}
+            km/h
           </div>
         </div>
       </div>
