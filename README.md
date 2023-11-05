@@ -6,7 +6,7 @@ WeatherToday es una aplicación que te permite obtener información meteorológi
 
 - Búsqueda de localidades: Ingresa el nombre de la localidad deseada y obtén información precisa sobre el clima actual.
 
-- Información detallada: WeatherToday proporciona datos como la temperatura, el estado del tiempo y el ícono del clima.
+- Información detallada: WeatherToday proporciona datos como la temperatura, el estado del tiempo, el ícono del clima, la humedad o el viento.
 
 - Interfaz de usuario intuitiva: te permite obtener rápidamente la información que necesitas.
 
@@ -16,7 +16,7 @@ WeatherToday es una aplicación que te permite obtener información meteorológi
 
 ## 💻 Tecnologías utilizadas
 
-- Frontend: HTML5, CSS, JavaScript, React y Bootstrap
+- Frontend: HTML5, CSS3, JavaScript, React y Bootstrap
 - Backend: con la API de WeatherAPI.com obtenemos datos meteorológicos precisos y en tiempo real.
 
 ## ✨ Autores
