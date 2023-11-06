@@ -1,10 +1,12 @@
+import logo from "../assets/logo.png";
+
 const Navbar = ({ onSubmit, loading, error, city, setCity }) => {
   return (
     <nav className="navbar bg-body-light my-3 mx-5">
       <div className="container d-flex flex-column align-items-center">
         <div className="text-center">
           <img
-            src="/src/assets/logo.svg"
+            src={logo}
             alt="WeatherToday"
             width="180"
             height="90"
