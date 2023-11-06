@@ -19,20 +19,17 @@ const WeatherDisplay = ({ weather }) => {
       <h2 className="text-white text-center">{weather.temp} ºC</h2>
       <h3 className="text-white text-center">{weather.conditionText}</h3>
       <div className="container px-4 text-center text-white">
-        <div className="row gx-5 mt-1 d-flex justify-content-center">
-          <div className="col">
-            <div className="p-1">
-              <i className="fa-solid fa-droplet fa-xl me-2"></i>Humidity:{" "}
-              {weather.humidity}%
-            </div>
-          </div>
-          <div className="col">
-            <div className="p-2">
-              <i className="fa-solid fa-wind fa-xl me-2"></i>Wind:{" "}
-              {weather.wind}km/h
-            </div>
-          </div>
-        </div>
+      <div className="d-flex justify-content-center">
+  <div className="row">
+    <div className="mb-2">
+      <i className="fa-solid fa-droplet fa-lg me-2"></i>Humidity:{" "}
+      {weather.humidity}%
+    </div>
+    <div className="">
+      <i className="fa-solid fa-wind fa-lg me-2"></i>Wind: {weather.wind}km/h
+    </div>
+  </div>
+</div>
       </div>
     </div>
   );

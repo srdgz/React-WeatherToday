@@ -4,7 +4,7 @@ const Navbar = ({ onSubmit, loading, error, city, setCity }) => {
       <div className="container d-flex flex-column align-items-center">
         <div className="text-center">
           <img
-            src="/src/assets/logo.png"
+            src="/src/assets/logo.svg"
             alt="WeatherToday"
             width="180"
             height="90"
